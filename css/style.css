@@ -126,6 +126,9 @@
   .switch__lang{
       margin-left: 40px;
   }
+
+  /* Intro styles */
+
   .intro{
       height: 100vh;
       background: url(../img/aion-bg.jpg) no-repeat center;
@@ -162,12 +165,71 @@
     text-shadow: 2px 2px 3px black;
     padding-left: 5px;
   }
+  .pic1{
+    border-radius: 3%;
+  }
+/* History styles */
 
-
-
-  .history{
+.history{
     height: 100vh;
     background: url(../img/aion-bg2.jpg) no-repeat center;
     background-size: cover;
-    padding-top: 170px;
-  }
+    padding-top: 150px;
+}
+.history__header{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    padding-left: 5px;
+
+}
+.history__about1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(145, 94, 204, 0.26);
+}
+.history__description1{
+  width: 65%;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.5;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+  padding-left: 5px;
+}
+  .history__about2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(145, 94, 204, 0.26);
+    margin-bottom: 50px;
+}
+.history__description2{
+  width: 65%;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.5;
+  color: white;
+  text-shadow: 2px 2px 3px black;
+}
+
+.history2{
+    height: 100vh;
+    background: url(../img/aion-bg3.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 150px;
+}
+.history__continue{
+    
+}
